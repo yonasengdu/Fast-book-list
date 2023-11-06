@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./back_end/Dockerfile
+
+    command: sh -c "uvicorn main:app --reload --port=8000 --host=0.0.0.0"
+    ports:
+      - 8000:8000
+    
+  client:
+    build:
+      context: .
+      dockerfile: ./Front_end/Dockerfile
+
+    ports:
+      - 3000:3000
+
+          

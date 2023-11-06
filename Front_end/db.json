@@ -1,0 +1,8 @@
+{
+    "books": [
+      { "id": "1", "title": "Book 1", "status": "completed" },
+      { "id": "2", "title": "Book 2", "status": "inprogress" },
+      { "id": "3", "title": "Book 3", "status": "toread" }
+    ]
+  }
+  
