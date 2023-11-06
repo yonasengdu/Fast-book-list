@@ -1,7 +1,7 @@
 import { Book } from '@/types/book';
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const baseUrl = 'http://192.168.59.149:8000';
+const baseUrl = 'http://127.0.0.1:8000';
 
 export const booksApi = createApi({
     reducerPath: 'books',
